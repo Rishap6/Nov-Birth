@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harini’s Secret Birthday Mission 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="container">
+    <!-- Popup section -->
+    <div id="popup">
+      <h3>🔐 Access Restricted</h3>
+      <p>Only authorized People may enter.</p>
+      <input type="text" id="nameInput" placeholder="Enter your name here">
+      <br>
+      <button onclick="checkName()">Verify</button>
+    </div>
+
+    <!-- Gallery section -->
+    <div id="gallery">
+      <h1>🎉 Happy 21st Birthday, Harini! 🎉</h1>
+      <p>Welcome to your memory vault 💖</p>
+      <div>
+        <img src="/Nov-Birth/assets/photo1.jpg" alt="Memory 1">
+        <img src="/Nov-Birth/assets/photo2.jpg" alt="Memory 2">
+        <img src="/Nov-Birth/assets/photo3.jpg" alt="Memory 3">
+      </div>
+      <button onclick="showFinalMessage()">🎁 Click for a Surprise 🎁</button>
+    </div>
+
+    <!-- Final message -->
+    <div id="message">
+      <h2>🎂 Happy Birthday, Harini! 🎂</h2>
+      <p>
+        Congratulations on unlocking Level 21 of Life 💫<br>
+        You’re chaotic, kind, funny (sometimes 😜), but always amazing.<br>
+        Thank you for being you, and for tolerating your best brother 😂<br><br>
+        May your journey ahead be filled with laughter, success, and way too many desserts 🍰❤️
+      </p>
+      <h3>– With love, Your brother 💕</h3>
+    </div>
+
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+  </div>
+
+  <!-- Confetti library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <!-- Main JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
